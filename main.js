@@ -1,9 +1,11 @@
-let age = [22, 34, 23, 45, 35, 43, 68];
-const numberOfPeople = age.length;
-let maxNumber = age[0];
-for(let i = 0; i <= numberOfPeople; i++) {
-    if(age[i] >= maxNumber ) {
-        maxNumber = age[i];
+let personeName = ["Shubham", "Sakshi", "Aditya", "Om", "Vivek"];
+let personeGender = ["male", "female", "male", "male", "male"];
+let numberOfPersones = personeName.length;
+
+for (let i = 0; i < numberOfPersones; i++) {
+    if(personeGender[i] == "male") {
+        console.log(personeName[i] + " is male");
+    } else {
+        console.log(personeName[i] + " is female");
     }
 }
-console.log(maxNumber);
