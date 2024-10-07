@@ -1,11 +1,7 @@
-let firstName = "Shubham";
-let age = 20;
-let isMarried = false;
+let answer = 0
 
-// console.log("this persons name is " + firstName + " and his age is " + age);
-///////
-if(isMarried == true) {
-    console.log(firstName + " is Married");
-} else {
-    console.log(firstName + " is not Married");
+for(let i = 0; i <= 1000; i++) {
+    answer  = answer + i;
 }
+
+console.log(answer);
